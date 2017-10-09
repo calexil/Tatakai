@@ -1,3 +1,9 @@
 #!/bin/bash
 
-setenv pygame 
+setenv pygame
+
+while true
+
+python '/assets/Tatakai.py'
+
+&disown
