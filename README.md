@@ -14,13 +14,13 @@ Chiharu (JP)
 Ninja, Ninjitsu
 
 Isabel (BR)  
-Capioera, 
+Capioera
 
 Lily (UK/GB)  
 Stylized Karate
 
 Sarah(USA)  
-Wrestler/grappler
+Wrestler/Grappler
 
 Xiaoli(CN)  
 Tai Chi / Kung fu
@@ -34,7 +34,7 @@ Brawler
 Kohaku(JP)  
 Samurai
 
-Lao Shun(CN)  
+Lao(CN)  
 Jeet kune do
 
 Miguel(ES)  
