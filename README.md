@@ -40,23 +40,24 @@ Jeet kune do
 Miguel(ES)  
 Rapier
 
-### Neutrals
-lp  
-mp  
-hp  
+### Normals
+lp - Light Punch, A fast but weak standing normal, safe on block except air  
+mp - Medium Punch, Medium speed medium power, not safe on block for most characters, air safe(Priority)  
+hp - Heavy Punch, Slow moving high damage punch, dp cannot be parried  
 
-lk  
-mk  
-hk  
+lk - Light Kick, A fast but weak standing normal, safe on block except overheads  
+mk - Medium Kick, Mid speed startup, multi hit in some cases, safe on block rarely  
+hk - Heavy Kick, Slow startup high damage kick, can be overhead on some characters  
 
-grb  
-cgrb  
+grb - Grab, you grab your opponent, directional, can be parried or grab countered, parry adds stun, air okay  
+cgrb - Command Grab, Uncounterable Grab, slow startup, higher damage and knockdown upon success  
 
-blk  
-pblk  
+blk - Block, Block your opponent, Directional(Stand/Crouch/Air)  
+pblk - PushBlock, While in block stun(blocking hits) hit p+p or k+k  
 
-jmp  
-dbljmp  
+jmp - Jump, Press up, Directional  
+sjmp - Super Jump, press down up, directional(minimal angles)
+dbljmp - Double Jump, press up a second time in the air  
 
 dash  
 adash  
