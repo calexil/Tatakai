@@ -1,7 +1,7 @@
 import pyglet
 from pyglet.gl import glViewport, glMatrixMode, glOrtho, glLoadIdentity, glScalef
 from pyglet.gl import GL_PROJECTION, GL_MODELVIEW
-
+from configparser import ConfigParser
 
 ##Main scene.##
 pyglet.resource.path.append("theme")
@@ -23,6 +23,22 @@ def on_resize(width, height):
     scale_x = width / 1280.0
     scale_y = height / 720.0
     glScalef(scale_x, scale_y, 1.0)
+
+class MainScene:
+    def __init__(self, window_instance, fightstick):
+        self.window = window_instance
+        self.batch = pyglet.graphics.Batch()
+
+
+##Enforce aspect ratio by readjusting the window height.##
+def enforce_aspect_ratio(dt):
+    aspect_ratio = 1.641025641
+    target_width = int(window.height * aspect_ratio)
+    target_height = int(window.width / aspect_ratio)
+
+    if window.width != target_width and window.height != target_height:
+        window.set_size(window.width, target_height)
+
 
 if __name__ == "__main__":
     load_configuration()
