@@ -17,7 +17,7 @@ Isabel (BR)
 Capioera, 
 
 Lily (UK/GB)  
-
+Stylized Karate
 
 Sarah(USA)  
 Wrestler/grappler
@@ -26,6 +26,7 @@ Xiaoli(CN)
 Tai Chi / Kung fu
 
 Bruno(BR)  
+Freeform
 
 JD(USA)  
 Brawler
@@ -33,7 +34,7 @@ Brawler
 Kohaku(JP)  
 Samurai
 
-Lee(CN)  
+Lao Shun(CN)  
 Jeet kune do
 
 Miguel(ES)  
