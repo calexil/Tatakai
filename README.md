@@ -10,49 +10,50 @@ Instead of continuing on with violent and repulsive wars, the "Combat Master Tou
 ## Combat Master(Main Story)
 
 ### Characters
-f
-f
-f
-f
-f
-m
-m
-m
-m
-m
+Chiharu  
+Isabel  
+Lily  
+Sarah  
+Xiaoli  
 
+Bruno  
+JD  
+Kohaku  
+Lee  
+Miguel  
 ### Neutrals
-lp
-mp
-hp
+lp  
+mp  
+hp  
 
-lk
-mk
-hk
+lk  
+mk  
+hk  
 
-grb
-cgrb
+grb  
+cgrb  
 
-blk
-pblk
+blk  
+pblk  
 
-jmp
-dbljmp
+jmp  
+dbljmp  
 
-dash
-adash
+dash  
+adash  
 
-parry
+parry  
 
 
 ### Specials
-f
-f
-f
-f
-f
-m
-m
-m
-m
-m
+Chiharu  
+Isabel  
+Lily  
+Sarah  
+Xiaoli  
+
+Bruno  
+JD  
+Kohaku  
+Lee  
+Miguel  
