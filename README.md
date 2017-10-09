@@ -26,7 +26,7 @@ Xiaoli(CN)
 Tai Chi / Kung fu
 
 Bruno(BR)  
-Freeform
+Freeform, Electricity 
 
 JD(USA)  
 Brawler
@@ -56,13 +56,13 @@ blk - Block, Block your opponent, Directional(Stand/Crouch/Air)
 pblk - PushBlock, While in block stun(blocking hits) hit p+p or k+k  
 
 jmp - Jump, Press up, Directional  
-sjmp - Super Jump, press down up, directional(minimal angles)
-dbljmp - Double Jump, press up a second time in the air  
+sjmp - Super Jump, press down up, directional  
+dbljmp - Double Jump, press up a second time in the air, directional  
 
-dash  
-adash  
+dash - Dash, tap forward or back or lp+mp  
+adash - Air Dash, Dash in the air, tap forward or back or lp+mp/back lp+mp  
 
-parry  
+parry - Parry, press towards your opponent to counter their move, multi-hit okay, air okay, super okay, cannot stop command grab  
 yes... we have parries!!
 
 ### Specials
