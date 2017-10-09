@@ -10,17 +10,35 @@ Instead of continuing on with violent and repulsive wars, the "Combat Master Tou
 ## Combat Master(Main Story)
 
 ### Characters
-Chiharu  
-Isabel  
-Lily  
-Sarah  
-Xiaoli  
+Chiharu (JP)  
+Ninja, Ninjitsu
 
-Bruno  
-JD  
-Kohaku  
-Lee  
-Miguel  
+Isabel (BR)  
+Capioera, 
+
+Lily (UK/GB)  
+
+
+Sarah(USA)  
+Wrestler/grappler
+
+Xiaoli(CN)  
+Tai Chi / Kung fu
+
+Bruno(BR)  
+
+JD(USA)  
+Brawler
+
+Kohaku(JP)  
+Samurai
+
+Lee(CN)  
+Jeet kune do
+
+Miguel(ES)  
+Rapier
+
 ### Neutrals
 lp  
 mp  
@@ -43,7 +61,7 @@ dash
 adash  
 
 parry  
-
+yes... we have parries!!
 
 ### Specials
 Chiharu  
