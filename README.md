@@ -1,4 +1,4 @@
-# Sentō
+# Tatakai
 
 ## Story
 Gathered on the world stage for the first time ever, the greatest martial arts masters in the world compete for the title of "Combat Master"
