@@ -1,4 +1,4 @@
-# Tatakai [![CodeFactor](https://www.codefactor.io/repository/github/calexil/tatakai/badge)](https://www.codefactor.io/repository/github/calexil/tatakai) 
+# Tatakai [![CodeFactor](https://www.codefactor.io/repository/github/calexil/tatakai/badge)](https://www.codefactor.io/repository/github/calexil/tatakai) [![GitHub forks](https://img.shields.io/github/forks/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/network) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
 
 ## Story
 Gathered on the world stage for the first time ever, the greatest martial arts masters in the world compete for the title of "Combat Master"
