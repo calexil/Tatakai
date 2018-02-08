@@ -1,4 +1,4 @@
-# ![icon](https://github.com/calexil/Tatakai/blob/master/assets/icon.png) Tatakai [![CodeFactor](https://www.codefactor.io/repository/github/calexil/tatakai/badge)](https://www.codefactor.io/repository/github/calexil/tatakai) [![GitHub forks](https://img.shields.io/github/forks/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/network) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
+# ![icon](https://github.com/calexil/Tatakai/blob/master/assets/icon.png) Tatakai [![CodeFactor](https://www.codefactor.io/repository/github/calexil/tatakai/badge)](https://www.codefactor.io/repository/github/calexil/tatakai) [![Maintainability](https://api.codeclimate.com/v1/badges/795fb8d99c3a482b09d8/maintainability)](https://codeclimate.com/github/calexil/Tatakai/maintainability) [![GitHub forks](https://img.shields.io/github/forks/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/network) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
 
 ## Installation
 Simply clone the repo and run the appropriate executable  
