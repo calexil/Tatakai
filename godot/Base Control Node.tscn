@@ -1,4 +1,13 @@
-[gd_scene format=1]
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://warning.tex" type="Texture" id=1]
+
+[sub_resource type="Animation" id=1]
+
+resource/name = "warn"
+length = 1.0
+loop = false
+step = 0.1
 
 [node name="Base Control Node" type="Control"]
 
@@ -27,13 +36,20 @@ margin/bottom = 599.0
 playback/process_mode = 1
 playback/default_blend_time = 0.0
 root/root = NodePath("..")
+anims/warn = SubResource( 1 )
 playback/active = true
 playback/speed = 1.0
 blend_times = [  ]
 autoplay = ""
 
+[node name="warning" type="Sprite" parent="Base bg"]
+
+transform/pos = Vector2( 541.113, 303.596 )
+texture = ExtResource( 1 )
+
 [node name="Epilepsy warning" type="PopupDialog" parent="."]
 
+visibility/visible = false
 anchor/left = 3
 anchor/top = 3
 anchor/right = 3
