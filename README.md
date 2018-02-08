@@ -26,35 +26,18 @@ Instead of continuing on with violent and repulsive wars, the "Combat Master Tou
 ## Combat Master(Main Story)
 
 ### Characters
-Chiharu (JP)  
-Ninja, Ninjitsu
-
-Isabel (BR)  
-Capioera
-
-Lily (UK/GB)  
-Stylized Karate
-
-Sarah(USA)  
-Wrestler/Grappler
-
-Xiaoli(CN)  
-Tai Chi / Kung fu
-
-Bruno(BR)  
-Freeform, Electricity 
-
-JD(USA)  
-Brawler
-
-Kohaku(JP)  
-Samurai
-
-Lao(CN)  
-Jeet kune do
-
-Miguel(ES)  
-Rapier
+|Name(Country) | Fighting Style|
+|:---|---:|
+|Chiharu (JP) | Ninja, Ninjitsu|
+|Isabel (BR) | Capioera|
+|Lily (UK/GB) | Stylized Karate|
+|Sarah(USA) | Wrestler/Grappler|
+|Xiaoli(CN) | Tai Chi / Kung fu|
+|Bruno(BR) | Freeform, Electricity|
+|JD(USA) | Brawler|
+|Kohaku(JP) | Samurai|
+|Lao(CN) | Jeet kune do|
+|Miguel(ES) | Rapier, Swordfighter|
 
 ### Normals
 lp - Light Punch, A fast but weak standing normal, safe on block except air  
@@ -82,14 +65,15 @@ parry - Parry, press towards your opponent to counter their move, multi-hit okay
 yes... we have parries!!
 
 ### Specials
-Chiharu  
-Isabel  
-Lily  
-Sarah  
-Xiaoli  
-
-Bruno  
-JD  
-Kohaku  
-Lee  
-Miguel  
+|Special Name | Damage | Input|
+|:---|---:|---:|
+|Chiharu||
+|Isabel||
+|Lily||
+|Sarah||
+|Xiaoli||
+|Bruno||
+|JD||
+|Kohaku||
+|Lee||
+|Miguel||
