@@ -10,7 +10,7 @@ Linux, Windows, and Mac builds available
 * 600mb Disk Space
 * Intel hd3000+ , AMD HD 5xxx+, Nvidia gtx 750 ti
 
-##Suggested System Specs
+## Suggested System Specs
 * Quad Core Processor 2.6ghz+
 * 8gb DDR3 1600 Ram
 * 1.5gb Disk Space
