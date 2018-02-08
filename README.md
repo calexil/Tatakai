@@ -65,15 +65,15 @@ parry - Parry, press towards your opponent to counter their move, multi-hit okay
 yes... we have parries!!
 
 ### Specials
-|Special Name | Damage | Input|
-|:---|---:|---:|
-|Chiharu||
-|Isabel||
-|Lily||
-|Sarah||
-|Xiaoli||
-|Bruno||
-|JD||
-|Kohaku||
-|Lee||
-|Miguel||
+|Character | Special Name | Damage | Input|
+|:---|---:|---:|---:|
+|Chiharu|||
+|Isabel|||
+|Lily|||
+|Sarah|||
+|Xiaoli|||
+|Bruno|||
+|JD|||
+|Kohaku|||
+|Lee|||
+|Miguel|||
