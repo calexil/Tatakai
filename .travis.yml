@@ -9,6 +9,6 @@ before_install:
 - sudo apt-get update -qq
 - sudo apt-get install -qq wine xorg
 script:
-  - startx
+  - sudo touch ~/.Xauthority && xauth generate :0 . trusted && xauth add ${HOST}:0 . $(xxd -l 16 -p /dev/urandom) && startx
   - wine tatakai.exe
-  - sh tatakai.x86_64
+  - ./tatakai.x86_64
