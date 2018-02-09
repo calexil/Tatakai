@@ -1,0 +1,13 @@
+sudo: false
+language: cpp
+branches:
+  only:
+  - master
+os:
+  - linux
+before_install:
+- sudo apt-get update -qq
+- sudo apt-get install -qq wine
+script:
+  - wine tatakai.exe
+  - sh tatakai.x86_64
