@@ -10,12 +10,4 @@ distro:
   - trusty
 compiler:
   - gcc
-before_install:
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update          ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install graphviz; fi
-before_script:
-  - "export DISPLAY=:99.0"
-  - "export LIBGL_ALWAYS_SOFTWARE=1"
-script:
-  - make all
-  - ./tatakai.x86_64
+
