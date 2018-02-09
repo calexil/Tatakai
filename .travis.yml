@@ -15,9 +15,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install graphviz; fi
 before_script:
   - "export DISPLAY=:99.0"
-  - export LIBGL_ALWAYS_SOFTWARE=1
-  - "sh -e /etc/init.d/xvfb start"
-  - sleep 3 # give xvfb some time to start
+  - "export LIBGL_ALWAYS_SOFTWARE=1"
 script:
   - make all
   - ./tatakai.x86_64
