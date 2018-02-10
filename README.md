@@ -1,4 +1,4 @@
-# ![icon](https://github.com/calexil/Tatakai/blob/master/assets/icon.png) Tatakai [![Build status](https://ci.appveyor.com/api/projects/status/3moac25hxv3orp3x?svg=true)](https://ci.appveyor.com/project/calexil/tatakai) [![Maintainability](https://api.codeclimate.com/v1/badges/795fb8d99c3a482b09d8/maintainability)](https://codeclimate.com/github/calexil/Tatakai/maintainability) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
+# ![icon](https://github.com/calexil/Tatakai/blob/master/assets/icon.png) Tatakai [![Build status](https://ci.appveyor.com/api/projects/status/3moac25hxv3orp3x?svg=true)](https://ci.appveyor.com/project/calexil/tatakai) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
 
 ## Installation
 Simply clone the repo and run the appropriate executable  
