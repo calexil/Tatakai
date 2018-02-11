@@ -1,5 +1,5 @@
 sudo: false
-language: gdscript
+language: objective-c
 branches:
   only:
   - master
@@ -8,5 +8,6 @@ os:
   - osx
 distro:
   - trusty
-
-
+script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+git:
+  depth: 10
