@@ -1,0 +1,34 @@
+extends Control
+
+export (PackedScene) var next_scene
+
+onready var warn = get_node("warn")
+
+var is_loading = true
+
+func _ready():
+	set_process_input(true)
+
+	fade_in_out()
+
+func fade_in_out():
+	warn.play("warn")
+	warn.connect("finished", self, "goto_next_scene")
+
+func goto_next_scene():
+	if(is_loading):
+		var timer = Timer.new()
+		add_child(timer)
+		timer.set_wait_time(1) # seconds
+		timer.set_one_shot(false)
+		timer.connect("timeout", self, "next_scene")
+		timer.start()
+	else:
+		next_scene()
+
+func next_scene():
+	if(is_loading):
+		print("loading the next scene")
+
+		get_parent().add_child(next_scene.instance())
+		queue_free()
