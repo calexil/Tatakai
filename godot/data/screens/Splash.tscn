@@ -1,8 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://data/screens/splash.gd" type="Script" id=1]
 [ext_resource path="res://data/screens/warn.tscn" type="PackedScene" id=2]
 [ext_resource path="res://images/title.png" type="Texture" id=3]
+[ext_resource path="res://data/screens/node.gd" type="Script" id=4]
 
 [sub_resource type="Animation" id=1]
 
@@ -46,6 +47,7 @@ next_scene = ExtResource( 2 )
 position = Vector2( 514.195, 301.262 )
 scale = Vector2( 0.532697, 0.558485 )
 texture = ExtResource( 3 )
+script = ExtResource( 4 )
 _sections_unfolded = [ "Animation", "Offset", "Transform", "Visibility" ]
 
 [node name="splash" type="AnimationPlayer" parent="." index="1"]
