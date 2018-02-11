@@ -1,4 +1,4 @@
-extends Sprite
+extends PopupMenu
 
 # class member variables go here, for example:
 # var a = 2
@@ -9,6 +9,7 @@ func _ready():
 	# Initialization here
 	pass
 
+	popup()
 
 #func _process(delta):
 #	# Called every frame. Delta is time since last frame.

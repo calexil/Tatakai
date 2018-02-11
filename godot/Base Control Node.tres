@@ -6,4 +6,5 @@ resource_name = "warn"
 length = 10.0
 loop = false
 step = 0.1
+_sections_unfolded = [ "Resource" ]
 

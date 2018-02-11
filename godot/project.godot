@@ -11,14 +11,18 @@ config_version=3
 [application]
 
 run/main_scene="res://Base Control Node.tscn"
-boot_splash=""
 icon="res://icon.png"
 main_scene=""
 name="Tatakai"
+boot_splash="Null"
 
 [display]
 
 window/resizable=true
+
+[physics]
+
+2d/physics_engine="GodotPhysics"
 
 [physics_2d]
 
