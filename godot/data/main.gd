@@ -24,7 +24,7 @@ func splash_screen():
 	add_child(next_scene_instance)
 
 func load_data(vars):
-	for i in range(0, 9000):
+	for i in range(0, 900000):
 		for j in range(0, 7):
 			pass
 
