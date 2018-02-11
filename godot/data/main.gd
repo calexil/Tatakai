@@ -30,3 +30,4 @@ func load_data(vars):
 
 	print("Load Complete")
 	next_scene_instance.is_loading =false
+	pass

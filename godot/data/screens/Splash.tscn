@@ -23,7 +23,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 0.625, 0.0292969, 0.0292969, 1 ), Color( 0.625, 0.0292969, 0.0292969, 1 ), Color( 0.730469, 0.730469, 0.730469, 0 ) ]
 }
 
-[node name="splash" type="Control" index="0"]
+[node name="splash" type="Control"]
 
 modulate = Color( 0.730469, 0.730469, 0.730469, 0 )
 anchor_left = 0.0
@@ -43,10 +43,10 @@ next_scene = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="." index="0"]
 
-position = Vector2( 512.127, 300.121 )
-scale = Vector2( 0.533434, 0.555675 )
+position = Vector2( 514.195, 301.262 )
+scale = Vector2( 0.532697, 0.558485 )
 texture = ExtResource( 3 )
-_sections_unfolded = [ "Animation", "Offset", "Transform" ]
+_sections_unfolded = [ "Animation", "Offset", "Transform", "Visibility" ]
 
 [node name="splash" type="AnimationPlayer" parent="." index="1"]
 

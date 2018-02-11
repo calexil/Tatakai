@@ -6,7 +6,7 @@ onready var splash = get_node("splash")
 
 var is_loading = true
 
-func _ready():
+func ready():
 	set_process_input(true)
 
 	fade_in_out()
@@ -16,7 +16,7 @@ func _input(event):
 		next_scene()
 
 func fade_in_out():
-	splash.play("splash")
+	splash.play("fadeinout")
 	splash.connect("finished", self, "goto_next_scene")
 
 func goto_next_scene():
@@ -36,3 +36,4 @@ func next_scene():
 
 		get_parent().add_child(next_scene.instance())
 		queue_free()
+	pass
