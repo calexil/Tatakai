@@ -1,5 +1,5 @@
-sudo: true
-language: cpp
+sudo: false
+language: gdscript
 branches:
   only:
   - master
@@ -8,6 +8,5 @@ os:
   - osx
 distro:
   - trusty
-compiler:
-  - gcc
+
 
