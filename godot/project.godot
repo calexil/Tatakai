@@ -10,6 +10,7 @@ config_version=3
 
 [application]
 
+config/name="Tatakai"
 run/main_scene="res://Tatakai Main.tscn"
 run/disable_stdout=true
 name="Tatakai"

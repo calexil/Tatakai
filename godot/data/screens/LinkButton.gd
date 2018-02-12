@@ -1,8 +1,9 @@
 extends LinkButton
 
-func mouseclick():
-	if mouseclick(LinkButton):
-		var on_mouse_click = mouseclick()
+
+func ready():
+	set_process_input(true)
+
+func mouse_click():
+	if mouseclick(true):
 		OS.shell_open("https://github.com/calexil/Tatakai")
-	else:
-		pass
