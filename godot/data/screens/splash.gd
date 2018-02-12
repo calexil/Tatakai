@@ -36,4 +36,4 @@ func next_scene():
 
 		get_parent().add_child(next_scene.instance())
 		queue_free()
-	pass
+

@@ -15,6 +15,7 @@ func _input(event):
 	if(event.is_action_pressed("ui_select")):
 		next_scene()
 
+
 func fade_in_out():
 	warn.play("warnanimate")
 	warn.connect("finished", self, "goto_next_scene")
@@ -36,4 +37,3 @@ func next_scene():
 
 		get_parent().add_child(next_scene.instance())
 		queue_free()
-	pass
