@@ -12,12 +12,14 @@ config_version=3
 
 config/name="Tatakai"
 run/main_scene="res://Tatakai Main.tscn"
-run/disable_stdout=true
 name="Tatakai"
 Icon=true
 
 [display]
 
+window/size/height=1080
+window/size/resizable=false
+window/size/fullscreen=true
 window/stretch/mode="2d"
 window/stretch/aspect="expand"
 window/resizable=true
