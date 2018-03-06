@@ -1,8 +1,7 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://data/screens/warn.gd" type="Script" id=1]
-[ext_resource path="res://data/screens/menu.tscn" type="PackedScene" id=2]
-[ext_resource path="res://data/images/warning.png" type="Texture" id=3]
+[ext_resource path="res://data/images/warning.png" type="Texture" id=2]
 
 [sub_resource type="Animation" id=1]
 
@@ -41,7 +40,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 
-[node name="warn" type="Control"]
+[node name="warnctrl" type="Control"]
 
 modulate = Color( 1, 1, 1, 0 )
 anchor_left = 0.0
@@ -55,13 +54,11 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 script = ExtResource( 1 )
 _sections_unfolded = [ "Anchor", "Margin", "Mouse", "Size Flags", "Theme", "Visibility" ]
-next_scene = ExtResource( 2 )
 
 [node name="warning" type="Sprite" parent="." index="0"]
 
-position = Vector2( 563.008, 327.516 )
-scale = Vector2( 0.586305, 0.607762 )
-texture = ExtResource( 3 )
+texture = ExtResource( 2 )
+centered = false
 _sections_unfolded = [ "Offset", "Region", "Transform", "Visibility" ]
 
 [node name="warn" type="AnimationPlayer" parent="." index="1"]
@@ -74,5 +71,7 @@ playback_speed = 1.0
 anims/fadeinout = SubResource( 1 )
 anims/warnanimate = SubResource( 2 )
 blend_times = [  ]
+
+[connection signal="animation_finished" from="warn" to="." method="_on_warn_animation_finished"]
 
 

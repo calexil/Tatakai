@@ -1,39 +1,24 @@
 extends Control
 
-export (PackedScene) var next_scene
-
 onready var warn = get_node("warn")
+var main_menu_screen = preload("res://data/screens/menu.tscn")
 
-var is_loading = true
-
-func ready():
-	set_process_input(true)
-
+func _ready():
 	fade_in_out()
 
 func _input(event):
-	if(event.is_action_pressed("ui_select")):
-		next_scene()
-
+	if(Input.is_key_pressed(KEY_SPACE) || Input.is_key_pressed(KEY_ENTER) || Input.is_mouse_button_pressed(BUTTON_LEFT)):
+		display_main_menu()
 
 func fade_in_out():
 	warn.play("warnanimate")
-	warn.connect("finished", self, "goto_next_scene")
 
-func goto_next_scene():
-	if(is_loading):
-		var timer = Timer.new()
-		add_child(timer)
-		timer.set_wait_time(1) # seconds
-		timer.set_one_shot(false)
-		timer.connect("timeout", self, "next_scene")
-		timer.start()
-	else:
-		next_scene()
+func display_main_menu():
+	print("Switching to main menu screen")
+	#Add warning screen to scene tree
+	get_tree().get_root().add_child(main_menu_screen.instance())
+	#Remove splash screen from scene tree
+	queue_free()
 
-func next_scene():
-	if(is_loading):
-		print("loading the next scene")
-
-		get_parent().add_child(next_scene.instance())
-		queue_free()
+func _on_warn_animation_finished( anim_name ):
+	display_main_menu()

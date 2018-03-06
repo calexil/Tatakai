@@ -1,39 +1,24 @@
 extends Control
 
-export (PackedScene) var next_scene
-
 onready var splash = get_node("splash")
+var warning_screen = preload("res://data/screens/warn.tscn")
 
-var is_loading = true
-
-func ready():
-	set_process_input(true)
-
+func _ready():
 	fade_in_out()
 
 func _input(event):
-	if(event.is_action_pressed("ui_select")):
-		next_scene()
+	if(Input.is_key_pressed(KEY_SPACE) || Input.is_key_pressed(KEY_ENTER) || Input.is_mouse_button_pressed(BUTTON_LEFT)):
+		display_warning_screen()
 
 func fade_in_out():
 	splash.play("fadeinout")
-	splash.connect("finished", self, "goto_next_scene")
 
-func goto_next_scene():
-	if(is_loading):
-		var timer = Timer.new()
-		add_child(timer)
-		timer.set_wait_time(1) # seconds
-		timer.set_one_shot(false)
-		timer.connect("timeout", self, "next_scene")
-		timer.start()
-	else:
-		next_scene()
+func display_warning_screen():
+	print("Switching to warning screen")
+	#Add warning screen to scene tree
+	get_tree().get_root().add_child(warning_screen.instance())
+	#Remove splash screen from scene tree
+	queue_free()
 
-func next_scene():
-	if(is_loading):
-		print("loading the next scene")
-
-		get_parent().add_child(next_scene.instance())
-		queue_free()
-
+func _on_splash_animation_finished( anim_name ):
+	display_warning_screen()
