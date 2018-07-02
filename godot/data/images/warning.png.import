@@ -7,10 +7,7 @@ path="res://.import/warning.png-3f1f1cb9d5d9fcfe7fbf7388e42c0744.stex"
 [deps]
 
 source_file="res://data/images/warning.png"
-source_md5="637cceb36412f284e85e152eb2c70547"
-
 dest_files=[ "res://.import/warning.png-3f1f1cb9d5d9fcfe7fbf7388e42c0744.stex" ]
-dest_md5="4197156c84e3e9540e87042ba066cb3c"
 
 [params]
 
