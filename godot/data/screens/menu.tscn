@@ -10,8 +10,6 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 1.0
 anchor_bottom = 0.0
-margin_right = 20.0
-margin_bottom = 750.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 0
@@ -70,7 +68,7 @@ stretch_mode = 0
 anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
-anchor_bottom = 0.0
+anchor_bottom = 0.02
 margin_left = 500.0
 margin_top = 100.0
 margin_right = 792.0
@@ -83,6 +81,7 @@ size_flags_horizontal = 1
 size_flags_vertical = 1
 texture = ExtResource( 1 )
 stretch_mode = 0
+_sections_unfolded = [ "Anchor", "Grow Direction", "Margin" ]
 
 [node name="Options" type="TextureRect" parent="HBoxContainer/VBoxContainer" index="1"]
 
@@ -178,10 +177,10 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = -20.0
-margin_top = -20.0
-margin_right = 27.0
-margin_bottom = 10.0
+margin_left = -19.0
+margin_top = -12.0
+margin_right = 19.0
+margin_bottom = 11.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
 mouse_filter = 1
@@ -193,7 +192,7 @@ enabled_focus_mode = 0
 shortcut = null
 group = null
 script = ExtResource( 3 )
-_sections_unfolded = [ "Mouse" ]
+_sections_unfolded = [ "Margin", "Mouse" ]
 
 [connection signal="pressed" from="icon/linkbutton" to="icon/linkbutton" method="_on_linkbutton_pressed"]
 

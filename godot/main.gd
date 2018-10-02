@@ -1,6 +1,5 @@
 extends Control
 
-onready var main = get_node("Main")
 var splash_screen = preload("res://data/screens/Splash.tscn")
 #var next_scene_instance = null
 #var is_loading = true
