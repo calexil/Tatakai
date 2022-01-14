@@ -1,4 +1,5 @@
-# ![icon](https://github.com/calexil/Tatakai/blob/master/godot/data/images/icon.png)  Tatakai [![Build status](https://ci.appveyor.com/api/projects/status/3moac25hxv3orp3x?svg=true)](https://ci.appveyor.com/project/calexil/tatakai)  [![Build Status](https://travis-ci.org/calexil/Tatakai.svg?branch=master)](https://travis-ci.org/calexil/Tatakai)  [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
+# ![icon](https://github.com/calexil/Tatakai/blob/master/godot/data/images/icon.png)  Tatakai 
+[![Build status](https://ci.appveyor.com/api/projects/status/3moac25hxv3orp3x?svg=true)](https://ci.appveyor.com/project/calexil/tatakai) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
 
 ## [Tatakai Wiki](https://github.com/calexil/Tatakai/wiki)
 
