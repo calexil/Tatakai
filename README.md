@@ -1,5 +1,5 @@
 # ![icon](https://github.com/calexil/Tatakai/blob/master/godot/data/images/icon.png)  Tatakai 
-[![Build status](https://ci.appveyor.com/api/projects/status/3moac25hxv3orp3x?svg=true)](https://ci.appveyor.com/project/calexil/tatakai) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) 
+[![Build status](https://ci.appveyor.com/api/projects/status/3moac25hxv3orp3x?svg=true)](https://ci.appveyor.com/project/calexil/tatakai) [![CodeFactor](https://www.codefactor.io/repository/github/calexil/tatakai/badge)](https://www.codefactor.io/repository/github/calexil/tatakai) [![GitHub issues](https://img.shields.io/github/issues/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/issues) [![GitHub stars](https://img.shields.io/github/stars/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/stargazers)  [![GitHub forks](https://img.shields.io/github/forks/calexil/Tatakai.svg)](https://github.com/calexil/Tatakai/network) 
 
 ## [Tatakai Wiki](https://github.com/calexil/Tatakai/wiki)
 
